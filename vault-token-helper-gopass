@@ -1,14 +1,7 @@
 #!/bin/bash
 
-case $1 in
-    get)
-      gopass private/vault-auth | tr -d '\n'
-    ;;
-    store)
-      cat | gopass insert private/vault-auth
-    ;;
-    erase)
-      gopass rm -f private/vault-auth
-    ;;
+case "$1" in
+    get)   gopass private/vault-auth | tr -d '\n' ;;
+    store) cat | gopass insert private/vault-auth ;;
+    erase) gopass rm -f private/vault-auth ;;
 esac
-
