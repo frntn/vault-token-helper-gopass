@@ -8,7 +8,7 @@ From [this blog post](https://www.hashicorp.com/blog/building-a-vault-token-help
 
 An [example project](https://github.com/sethvargo/vault-token-helper-osx-keychain), by Seth Vargo, implement an helper allowing vault to store its tokens to OSX Keychain
 
-The [actual project](https://github.com/frntn/vault-token-helper-gopass), implement an helper allowing vault to store its tokens to Gopass.
+This [project](https://github.com/frntn/vault-token-helper-gopass), implement an helper allowing vault to store its tokens to Gopass.
 
 ## Prerequisites
 
