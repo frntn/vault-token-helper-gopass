@@ -1,0 +1,9 @@
+nohup.out 
+*.hcl
+*.crt
+*.key
+*.keys 
+*.token 
+etc
+bin
+var
