@@ -14,7 +14,7 @@ This [project](https://github.com/frntn/vault-token-helper-gopass), implement an
 
 A properly installed gopass ( >= 1.6.2 is [required](https://github.com/justwatchcom/gopass/issues/482) )
 
-Also, vault tokens are not meant to be shared, so the vault helper stores the token in a 'private/' folder which can be a mounted store (handy if you have you only have 1 store setup and shared with your teams -- which may represent most gopass setup) :
+Also, vault tokens are not meant to be shared, so the vault helper stores the token in a `private/` folder which can be a mounted store (handy if you only have 1 store setup and shared with your teams -- which may represent most gopass setup) :
 
 ```
 # create a new store and mount it
